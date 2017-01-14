@@ -1,5 +1,5 @@
-(ns cci-clojure.chapter1.q2-check-permutation-test
-  (:require [cci-clojure.chapter1.q2-check-permutation :refer :all]
+(ns cci-clojure.chapter1.q2_check_permutation_test
+  (:require [cci-clojure.chapter1.q2_check_permutation :refer :all]
             [clojure.test :refer :all]))
 
 (deftest permutations-test

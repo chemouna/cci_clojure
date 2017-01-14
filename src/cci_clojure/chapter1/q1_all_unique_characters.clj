@@ -1,4 +1,4 @@
-(ns cci-clojure.chapter1)
+(ns cci-clojure.chapter1.q1_all_unique_characters)
 
 ;; Chapter 1 - Problem 1
 (defn all_unique_characters
@@ -29,7 +29,7 @@
 
 (defn all_unique_characters4
   [s]
-  (let [char-set (reduce #(conj %1 %2) #{} s)]
+  (let [char-set (reduce conj #{} s)]
     (== (count char-set) (count s))))
 
 (all_unique_characters4 "abcd")

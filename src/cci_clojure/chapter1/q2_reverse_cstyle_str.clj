@@ -1,5 +1,6 @@
-(ns cci-clojure.chapter1.q2-reverse-cstyle-str)
+(ns cci-clojure.chapter1.q2_reverse_cstyle_str
+  (:require [clojure.string :as s]))
 
 (defn reverse-cstyle-str
   [s]
-  (apply str (reverse (butlast str))))
+  (s/reverse (butlast str)))
