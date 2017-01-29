@@ -7,6 +7,6 @@
         odd-occ (filter odd? occurences)]
       (zero? (count (filter #(> % 1) odd-occ)))))
 
-(is_palindrome_permutation_2 "aaaabbbccc")
-(is_palindrome_permutation_2 "aaaa")
-(is_palindrome_permutation_2 "Tact Coa")
+;; (is_palindrome_permutation_2 "aaaabbbccc")
+;; (is_palindrome_permutation_2 "aaaa")
+;; (is_palindrome_permutation_2 "Tact Coa")
